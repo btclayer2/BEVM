@@ -19,10 +19,10 @@
 ### EVM system with BTC as native Gas
 #### The benefits of BTC as native Gas
 - The largest BTC ecology, which is convenient for BTC users to hold BTC and use Layer2.
-- BEVM's sorter can charge BTC fees to motivate BEVM sorter nodes.
+- BEVM's Sequencer can charge BTC fees to motivate BEVM Sequencer nodes.
 
 #### BTC is compatible with EVM system
-- BTC needs a Turing-hardened smart contract platform to settle common assets issued on BTC and BTC.
+- BTC needs a Turing-complete smart contract platform to settle assets issued on BTC and BTC.
 - The EVM ecology occupies more than 90% of the smart contract ecology in the market, and the compatible EVM ecology can accommodate the most expensive on-chain developers and user communities.
 
 #### Technical realization
