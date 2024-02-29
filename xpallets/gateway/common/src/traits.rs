@@ -107,7 +107,7 @@ impl<AccountId, BlockNumber, TrusteeAddress: BytesLike>
 }
 
 pub trait TrusteeInfoUpdate {
-    /// Update the trustee trasition status when the renewal of the trustee is completed
+    /// Update the trustee transition status when the renewal of the trustee is completed
     fn update_transition_status(chain: Chain, status: bool, trans_amount: Option<u64>);
     /// Each withdrawal is completed to record the weight of the signer
     fn update_trustee_sig_record(chain: Chain, script: &[u8], withdraw_amout: u64);

@@ -46,7 +46,7 @@ impl<T: Config> Pallet<T> {
         Self::generic_calculate_by_proportion(total_reward, my_power, total_power)
     }
 
-    /// Distributes the invididual asset mining reward, returns the unpaid asset mining rewards.
+    /// Distributes the individual asset mining reward, returns the unpaid asset mining rewards.
     fn distribute_to_mining_assets(total_reward: BalanceOf<T>) -> BalanceOf<T> {
         let asset_mining_info = T::AssetMining::asset_mining_power();
 
