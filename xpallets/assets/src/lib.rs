@@ -170,7 +170,7 @@ pub mod pallet {
         ),
         /// New balances of an asset were issued. [asset_id, receiver, amount]
         Issued(AssetId, T::AccountId, BalanceOf<T>),
-        /// Some balances of an asset were destoryed. [asset_id, who, amount]
+        /// Some balances of an asset were destroyed. [asset_id, who, amount]
         Destroyed(AssetId, T::AccountId, BalanceOf<T>),
         /// Set asset balance of an account by root. [asset_id, who, asset_type, amount]
         BalanceSet(AssetId, T::AccountId, AssetType, BalanceOf<T>),

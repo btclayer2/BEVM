@@ -61,7 +61,7 @@ pub mod pallet {
         /// The overarching event type.
         type Event: From<Event<Self>> + IsType<<Self as frame_system::Config>::Event>;
 
-        /// A majority of the council can excute some transactions.
+        /// A majority of the council can execute some transactions.
         type CouncilOrigin: EnsureOrigin<Self::Origin>;
 
         /// The btc-ledger's pallet id, used for deriving its sovereign account ID.

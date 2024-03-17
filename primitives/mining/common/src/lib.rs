@@ -10,7 +10,7 @@
 //! In this way, users(stakers) nominate some validators with some balances locked, earning
 //! the staking reward.
 //!
-//! 2. One goal of ChainX is to embrace more the eixsting cryptocurrencies into one ecosystem,
+//! 2. One goal of ChainX is to embrace more the existing cryptocurrencies into one ecosystem,
 //! therefore **Asset Mining** is introduced for winning more external assets like BTC, ETH, etc.
 //! For example, Bitcoin users can deposit their BTC into ChainX, then they'll get the X_BTC
 //! in 1:1 and the mining rights in ChainX system accordingly, earning the new minted PCX

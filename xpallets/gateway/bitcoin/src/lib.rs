@@ -104,7 +104,7 @@ pub mod pallet {
         /// The unix time type.
         type UnixTime: UnixTime;
 
-        /// A majority of the council can excute some transactions.
+        /// A majority of the council can execute some transactions.
         type CouncilOrigin: EnsureOrigin<Self::Origin>;
 
         /// Extract the account and possible extra from the data.

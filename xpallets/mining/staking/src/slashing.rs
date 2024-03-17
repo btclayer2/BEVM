@@ -78,7 +78,7 @@ impl<T: Config> Pallet<T> {
                             "Slash the offender {:?} for {:?} somehow failed: {:?}", offender, penalty, e,
                         );
                         // we still chill the offender even the slashing failed as currently
-                        // the offender is only the authorties without running a node.
+                        // the offender is only the authorities without running a node.
                         //
                         // TODO: Reconsider this once https://github.com/paritytech/substrate/pull/7127
                         // is merged.

@@ -9,7 +9,7 @@ use sp_runtime::traits::{CheckedAdd, CheckedSub};
 /// Internal mutables
 impl<T: Config> Pallet<T> {
     /// It's worth noting that the handicap is not always related to some real orders, i.e.,
-    /// current lowest_ask(or highest_bid) is suprious.
+    /// current lowest_ask(or highest_bid) is spurious.
     ///
     /// When there is no quotions at a certain price given the trading pair, we should check out
     /// whether the current handicap is true. If it's not true, adjust a tick accordingly.
