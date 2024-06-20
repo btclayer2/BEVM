@@ -30,7 +30,7 @@ contract ClockAuction is Pausable, ClockAuctionBase {
     /// @param _nftAddress - address of a deployed contract implementing
     ///  the Nonfungible Interface.
     /// @param _tokenId - ID of token to auction, sender must be owner.
-    /// @param _startingPrice - Price of item (in wei) at beginning of auction.
+    /// @param _startingPrice - Price of item (in wei) at beginning of the auction.
     /// @param _endingPrice - Price of item (in wei) at end of auction.
     /// @param _duration - Length of time to move between starting
     ///  price and ending price (in seconds).
