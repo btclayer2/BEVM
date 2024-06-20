@@ -20,7 +20,7 @@ abstract contract BaseRegistrar is Ownable, IERC721 {
     // The namehash of the TLD this registrar owns (eg, .eth)
     bytes32 public baseNode;
 
-    // A map of addresses that are authorised to register and renew names.
+    // A map of addresses that are authorized to register and renew names.
     mapping(address=>bool) public controllers;
 
     // Authorises a controller, who can register and renew domains.
