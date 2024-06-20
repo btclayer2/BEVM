@@ -1,7 +1,7 @@
 # [deprecated] XBTC in ChainX-EVM 
 
 ## 1. XBTC
-ChainX is the community-run layer2 network of bitcoin, and your portal into the world of Bitcoin ecosysterm.
+ChainX is the community-run layer2 network of bitcoin, and your portal into the world of Bitcoin ecosystem.
 Bitcoin on Chain is XBTC.
 
 ## 2. ChainX-EVM

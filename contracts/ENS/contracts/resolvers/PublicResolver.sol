@@ -19,9 +19,9 @@ contract PublicResolver is Multicallable, ABIResolver, AddrResolver, ContentHash
     ENS ens;
 
     /**
-     * A mapping of operators. An address that is authorised for an address
+     * A mapping of operators. An address that is authorized for an address
      * may make any changes to the name that the owner could, but may not update
-     * the set of authorisations.
+     * the set of authorizations.
      * (owner, operator) => approved
      */
     mapping(address => mapping(address => bool)) private _operatorApprovals;
