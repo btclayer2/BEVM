@@ -139,7 +139,7 @@ impl<T: Config> Pallet<T> {
             });
 
             // NOTE: Since the handicap is not always related to a real order,
-            // this guard statement is neccessary!
+            // this guard statement is necessary!
             if order.already_filled > Zero::zero() {
                 order.status = OrderStatus::PartialFill;
             }
