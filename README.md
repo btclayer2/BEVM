@@ -42,4 +42,4 @@ The development of BEVM has undergone a deep reflection on the core design conce
 Contributions are welcome! Join the discussion or submit issues and pull requests to help refine BEVM(λ) and Agere Consensus.
 
 # License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the GPL-3.0 License. See the [LICENSE](LICENSE) file for details.
